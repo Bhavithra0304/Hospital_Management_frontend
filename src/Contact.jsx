@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Footer from "./Components/Footer";
 
 function Contact() {
   const [msg, setMsg] = useState("");

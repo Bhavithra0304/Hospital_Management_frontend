@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Footer from "./Components/Footer";
 
 function ForgotPassword() {
   const [msg, setMsg] = useState("");

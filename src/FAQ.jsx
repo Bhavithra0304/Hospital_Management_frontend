@@ -1,4 +1,4 @@
-import Footer from "./Components/Footer";
+import React from 'react' 
 
 function FAQ() {
   return (
