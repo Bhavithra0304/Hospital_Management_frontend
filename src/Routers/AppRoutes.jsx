@@ -8,13 +8,14 @@ import Register from "../Register";
 import ForgetPassword from "../ForgetPassword";
 import Privacy from "../Privacy";
 import Terms from "../Terms";
+import Contact from "../Contact";
 const AppRoutes = () => {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/about" element={<About></About>}></Route>
-        <Route path="/contact" element={<About></About>}></Route>
+        <Route path="/contact" element={<Contact></Contact>}></Route>
         <Route path="/faq" element={<FAQ></FAQ>}></Route>
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
